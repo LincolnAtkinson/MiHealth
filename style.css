@@ -1,0 +1,91 @@
+html, body, head, h1, p, span, .green, .white {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+span, h1, p {
+    font-family: 'Noto Sans', sans-serif;
+}
+#header {
+    background-color: white;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+#body {
+    background-color: rgb(211, 211, 211);
+    background-image: url(ripples.png);
+    background-repeat: repeat;
+    height: 654px;
+}
+#Logo {
+    padding: 25px 0px 0px 40px;
+}
+span {
+    font-size: 38px;
+    color: rgb(216, 15, 15);
+}
+.greenText {
+    color: rgb(70, 207, 70);
+}
+#nav {
+    padding: 32px 20px 0px 0px;
+}
+a {
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    padding-right: 30px;
+}
+#text {
+    height: 470px;
+    width: 330px;
+}
+#content {
+    padding: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+h1 {
+    font-size: 60px;
+    padding-bottom: 30px;
+}
+h2 {
+    font-size: 15px;
+}
+p {
+    padding-bottom: 30px;
+}
+.imagee {
+    height: 470px;
+    width: 310px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: flex-end;
+}
+#apple {
+    background-image: url(apple-breakfast-quinoa-7.jpg);
+    background-size: cover;
+}
+#pasta {
+    background-image: url(pasta-salad-recipe-for-lunch.jpg);
+    background-size: cover;
+}
+#screen {
+    background-image: url(Screenshot_208.jpg);
+    background-size: cover;
+}
+.white {
+    background-color: white;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    padding-bottom: 5px;
+}
+.green {
+    background-color: greenyellow;
+    width: 120px;
+    height: 35px;
+    text-align: center;
+}
